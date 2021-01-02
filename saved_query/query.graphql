@@ -1,0 +1,21 @@
+query RecipeId1 {
+  recipe(id: 2) {
+    name,
+    ingredients {
+      name
+    }
+    cookingTime
+  }
+}
+
+query Recipes {
+  recipes {
+    name,
+    cookingTime,
+    ingredients {
+      name,
+      quantity,
+      unitMeasurement
+    }
+  }
+}
