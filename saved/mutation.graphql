@@ -1,0 +1,10 @@
+mutation updateRecipe {
+  updateRecipe(input : {
+    id: 1,
+    name: "The best tartiflette"
+    cookingTime: 13
+  }) {
+    name,
+    cookingTime
+  }
+}
