@@ -35,7 +35,7 @@ INGREDIENTS = {
 }
 
 RECIPES = [
-    {"id": 1, "name": "Tartiflette by Eric Guelpa", "cookingTime": 15},
+    {"id": 1, "name": "Tartiflette by Eric Guelpa", "cookingTime": 3},
     {"id": 2, "name": "La 'vraie' Tartiflette", "cookingTime": 20},
     {"id": 3, "name": "Tartiflette by Alain Ducasse", "cookingTime": 25},
 ]
