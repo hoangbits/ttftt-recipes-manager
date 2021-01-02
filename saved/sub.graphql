@@ -1,0 +1,6 @@
+subscription countdown {
+  launchAndWaitCookingTimer(id: 1) {
+    remainingTime,
+    status
+  }
+}
